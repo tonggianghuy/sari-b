@@ -1,0 +1,22 @@
+header.navbar.navbar-sticky.navbar-expand-lg.navbar-dark
+        .container.position-relative
+          a.navbar-brand.mr-70(href='index.html')
+            img.navbar-brand__regular.styleheader(src='/images/LogoStudy.png', alt='brand-logo')
+            img.navbar-brand__sticky.styleheader(src='/images/LogoStudy.png', alt='sticky brand-logo')
+          button.navbar-toggler.d-lg-none(type='button', data-toggle='navbarToggler', aria-label='Toggle navigation')
+            i.fa.fa-bars.style-icon-mobile(aria-hidden='true')
+          .navbar-inner
+            button.navbar-toggler.d-lg-none(type='button', data-toggle='navbarToggler', aria-label='Toggle navigation')
+              i.fa.fa-times.style-icon-mobile(aria-hidden='true')
+            nav
+              ul#navbar-nav.navbar-nav.style-nav
+                li.nav-item
+                  a.nav-link(href='index.html') VỀ CHÚNG TÔI
+                li.nav-item
+                  a.nav-link(href='#') TRƯỜNG HỌC
+                li.nav-item
+                  a.nav-link(href='#') HỌC BỔNG
+              // end of nav menu items
+          .flex-row.d-md-flex.mr-70.mr-lg-0.d-none.d-sm-inline-block
+            a.btn.rounded-full.btn--outline.btn--sm.btn-3d-hover.btn-splash-hover(href='#news')
+              span.btn__text LÀM BÀI KIỂM TRA
